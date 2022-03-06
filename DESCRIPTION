@@ -1,0 +1,25 @@
+Type: Package
+Package: rsharerjs
+Title: An HTML Widgets Wrapping 'sharer.js'
+Version: 0.1.0
+Authors@R: c(
+    person("Akiru", "Kato", role = c("aut", "cre")),
+    person("Ellison", "Leao", role = "cph",
+           comment = "author of sharer.js"),
+    person("Icons", "8", role = "cph",
+           comment = "authors team of line-awesome")
+  )
+Maintainer: Akiru Kato <paithiov909@gmail.com>
+Description: Create social share buttons for R Markdown or Shiny.
+License: MIT + file LICENSE
+Imports: 
+    htmlwidgets,
+    rlang
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: 
+    knitr
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2

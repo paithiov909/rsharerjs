@@ -1,0 +1,100 @@
+---
+title: "rsharerjs"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{rsharerjs}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+pkgload::load_all(".")
+```
+
+## Available shares
+
+```{r sharers}
+sharers
+```
+
+## Showcase
+
+```{r btns1}
+social_btns(
+  url = "https://paithiov909.github.io/rsharerjs",
+  title = "An HTML Widgets Wrapping 'sharer.js'")
+```
+
+```{r btns2}
+social_btns(
+  url = "https://paithiov909.github.io/rsharerjs",
+  title = "An HTML Widgets Wrapping 'sharer.js'",
+  media =  c(
+    "twitter",
+    "facebook",
+    "linkedin",
+    "email",
+    "whatsapp"
+  )
+)
+```
+
+```{r btns3}
+social_btns(
+  url = "https://paithiov909.github.io/rsharerjs",
+  title = "An HTML Widgets Wrapping 'sharer.js'",
+  media =  c(
+    "telegram",
+    "viber",
+    "pinterest",
+    "tumblr",
+    "hackernews"
+  )
+)
+```
+
+```{r btns4}
+social_btns(
+  url = "https://paithiov909.github.io/rsharerjs",
+  title = "An HTML Widgets Wrapping 'sharer.js'",
+  media =  c(
+    "reddit",
+    "vk.com",
+    "buffer",
+    "xing",
+    "line"
+  )
+)
+```
+
+```{r btns5}
+social_btns(
+  url = "https://paithiov909.github.io/rsharerjs",
+  title = "An HTML Widgets Wrapping 'sharer.js'",
+  media =  c(
+    "instapapaer",
+    "pocket",
+    "flipboard",
+    "weibo",
+    "blogger"
+  )
+)
+```
+
+```{r btns6}
+social_btns(
+  url = "https://paithiov909.github.io/rsharerjs",
+  title = "An HTML Widgets Wrapping 'sharer.js'",
+  media =  c(
+    "baidu",
+    "ok.ru",
+    "evernote",
+    "skype",
+    "trello"
+  )
+)
+```
