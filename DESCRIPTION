@@ -1,6 +1,6 @@
 Type: Package
 Package: rsharerjs
-Title: An HTML Widgets Wrapping 'sharer.js'
+Title: An HTML Widget Wrapping 'sharer.js'
 Version: 0.1.0
 Authors@R: c(
     person("Akiru", "Kato", role = c("aut", "cre")),
@@ -11,10 +11,10 @@ Authors@R: c(
   )
 Maintainer: Akiru Kato <paithiov909@gmail.com>
 Description: Create social share buttons for R Markdown or Shiny.
+License: MIT + file LICENSE
 URL: https://paithiov909.github.io/rsharerjs/,
     https://github.com/paithiov909/rsharerjs
 BugReports: https://github.com/paithiov909/rsharerjs/issues
-License: MIT + file LICENSE
 Imports: 
     htmlwidgets,
     rlang
