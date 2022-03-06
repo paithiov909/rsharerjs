@@ -25,13 +25,13 @@ sharers
 
 ```{r btns1}
 social_btns(
-  url = "https://paithiov909.github.io/rsharerjs",
+  url = "https://paithiov909.github.io/rsharerjs/",
   title = "An HTML Widgets Wrapping 'sharer.js'")
 ```
 
 ```{r btns2}
 social_btns(
-  url = "https://paithiov909.github.io/rsharerjs",
+  url = "https://paithiov909.github.io/rsharerjs/",
   title = "An HTML Widgets Wrapping 'sharer.js'",
   media =  c(
     "twitter",
@@ -45,7 +45,7 @@ social_btns(
 
 ```{r btns3}
 social_btns(
-  url = "https://paithiov909.github.io/rsharerjs",
+  url = "https://paithiov909.github.io/rsharerjs/",
   title = "An HTML Widgets Wrapping 'sharer.js'",
   media =  c(
     "telegram",
@@ -59,7 +59,7 @@ social_btns(
 
 ```{r btns4}
 social_btns(
-  url = "https://paithiov909.github.io/rsharerjs",
+  url = "https://paithiov909.github.io/rsharerjs/",
   title = "An HTML Widgets Wrapping 'sharer.js'",
   media =  c(
     "reddit",
@@ -73,7 +73,7 @@ social_btns(
 
 ```{r btns5}
 social_btns(
-  url = "https://paithiov909.github.io/rsharerjs",
+  url = "https://paithiov909.github.io/rsharerjs/",
   title = "An HTML Widgets Wrapping 'sharer.js'",
   media =  c(
     "instapapaer",
@@ -87,7 +87,7 @@ social_btns(
 
 ```{r btns6}
 social_btns(
-  url = "https://paithiov909.github.io/rsharerjs",
+  url = "https://paithiov909.github.io/rsharerjs/",
   title = "An HTML Widgets Wrapping 'sharer.js'",
   media =  c(
     "baidu",
