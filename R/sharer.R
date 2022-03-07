@@ -50,7 +50,7 @@ social_btns <- function(url,
                           "facebook",
                           "reddit"
                         ),
-                        width = NULL,
+                        width = "100%",
                         height = "4.25em") {
   media <- rlang::arg_match(media,
     values = sharers,

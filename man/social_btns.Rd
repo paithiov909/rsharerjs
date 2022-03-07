@@ -8,7 +8,7 @@ social_btns(
   url,
   title,
   media = c("twitter", "facebook", "reddit"),
-  width = NULL,
+  width = "100\%",
   height = "4.25em"
 )
 }
