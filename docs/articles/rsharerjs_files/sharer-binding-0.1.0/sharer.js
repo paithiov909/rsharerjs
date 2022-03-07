@@ -503,8 +503,9 @@ HTMLWidgets.widget({
       },
       resize: function(width, height) {
         let sharer = document.getElementsByClassName("sharer")
-        for (i in sharer.length) {
-          sharer.item(i-1).setAttributes("style", `width:${width}; height:${height};`)
+        let i = sharer.length
+        while (i) {
+          sharer.item(i--).setAttributes("style", `width:${width}; height:${height};`)
         }
       }
     }

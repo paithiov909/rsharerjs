@@ -38,7 +38,7 @@ sharers <- c(
 #' @param title title string to share.
 #' @param media sharers to set as widget.
 #' @param width width of widget's wrapper.
-#' @param height width of widget's height.
+#' @param height height of widget's wrapper.
 #' @inherit htmlwidgets::createWidget return
 #' @import htmlwidgets
 #' @importFrom rlang arg_match

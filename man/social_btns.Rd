@@ -21,7 +21,7 @@ social_btns(
 
 \item{width}{width of widget's wrapper.}
 
-\item{height}{width of widget's height.}
+\item{height}{height of widget's wrapper.}
 }
 \value{
 An object of class \code{htmlwidget} that will intelligently print
