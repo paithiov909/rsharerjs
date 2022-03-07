@@ -498,14 +498,11 @@ HTMLWidgets.widget({
         const buttons = x.media.reduce((prev, curr) => {
           return prev + `<button type="button" class="btn btn-outline-info" data-sharer="${curr}" data-url="${x.url}" data-title="${x.title}" data-link="true" data-blank="true"><span><i class="la la-${curr}"></i>&nbsp;Share on ${curr}</span></button>`
         }, "")
-        const container = `<div class="container-fluid btn-group btn-group-lg" role="group">${buttons}</div>`
+        const container = `<div class="btn-group btn-group-lg" role="group">${buttons}</div>`
         el.innerHTML = container
       },
       resize: function(width, height) {
-        let sharer = document.getElementsByClassName("sharer")
-        for (let i = 0; i < sharer.length; i++) {
-          sharer.item(i).setAttribute("style", `width:${width}; height:${height};`)
-        }
+        el.setAttribute("style", `width:${width}; height:${height};`)
       }
     }
   }
