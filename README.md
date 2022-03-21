@@ -8,7 +8,8 @@
 This package provides a function `social_btns()` to display a simple set of social share buttons
 for R Markdown or Shiny apps.
 
-This widget includes [icons8/line-awesome](https://github.com/icons8/line-awesome) and [ellisonleao/sharer.js](https://github.com/ellisonleao/sharer.js).
+This widget includes [ellisonleao/sharer.js](https://github.com/ellisonleao/sharer.js).
+Displaying the widgets requires fontawesome and boostrap.
 
 ![](man/figures/rsharer.jpg)
 

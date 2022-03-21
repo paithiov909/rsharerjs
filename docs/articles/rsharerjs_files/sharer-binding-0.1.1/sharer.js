@@ -496,7 +496,7 @@ HTMLWidgets.widget({
     return {
       renderValue: function(x) {
         const buttons = x.media.reduce((prev, curr) => {
-          return prev + `<button type="button" class="btn btn-outline-info" data-sharer="${curr}" data-url="${x.url}" data-title="${x.title}" data-link="true" data-blank="true"><span><i class="la la-${curr}"></i>&nbsp;Share on ${curr}</span></button>`
+          return prev + `<button type="button" class="btn btn-outline-info" data-sharer="${curr}" data-url="${x.url}" data-title="${x.title}" data-link="true" data-blank="true"><span><i class="fab fa-${curr}"></i>&nbsp;Share on ${curr}</span></button>`
         }, "")
         const container = `<div class="btn-group btn-group-lg" role="group">${buttons}</div>`
         el.innerHTML = container

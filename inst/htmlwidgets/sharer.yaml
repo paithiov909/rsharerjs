@@ -1,7 +1,0 @@
-dependencies:
-  - name: line-awesome
-    version: 1.3.0
-    src: htmlwidgets/lib/lineawesome
-    package: rsharerjs
-    stylesheet:
-      - css/line-awesome.min.css
