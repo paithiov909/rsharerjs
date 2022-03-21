@@ -9,7 +9,7 @@ This package provides a function `social_btns()` to display a simple set of soci
 for R Markdown or Shiny apps.
 
 This widget includes [ellisonleao/sharer.js](https://github.com/ellisonleao/sharer.js).
-Displaying the widgets requires fontawesome and boostrap.
+Displaying the widgets requires fontawesome and bootstrap.
 
 ![](man/figures/rsharer.jpg)
 
